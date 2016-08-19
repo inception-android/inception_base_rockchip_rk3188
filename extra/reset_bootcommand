@@ -1,0 +1,1 @@
+run_program("/sbin/dd", "if=/dev/zero", "of=/dev/block/mtd/by-name/misc");

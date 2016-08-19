@@ -1,0 +1,11 @@
+{
+  "__extends__": "inception.device",
+  "installercmd": {
+    "__make__": false
+  },
+  "update": {
+    "script": {
+      "post": ["extra/reset_bootcommand"]
+    }
+  }
+}
